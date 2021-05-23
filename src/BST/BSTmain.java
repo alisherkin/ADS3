@@ -17,11 +17,9 @@ public class BSTmain {
         // отображение дерева:
         tree.get(160);
         tree.printTree(tree.root);
-        tree.print();
         System.out.println("_____________________");
         tree.delete(175);
         tree.printTree(tree.root);
-        tree.print();
 
     }
 }
